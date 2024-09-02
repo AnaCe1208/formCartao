@@ -1,0 +1,45 @@
+/* Estiliza o formulário de cartão de crédito */
+.credit-card-form {
+  max-width: 400px; /* Define a largura máxima do formulário como 400 pixels */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  padding: 20px; /* Adiciona 20 pixels de preenchimento em torno do conteúdo do formulário */
+  border: 1px solid #ddd; /* Adiciona uma borda sólida de 1 pixel com cor cinza claro (#ddd) */
+  border-radius: 8px; /* Adiciona bordas arredondadas com raio de 8 pixels */
+  background-color: #f9f9f9; /* Define a cor de fundo como um cinza muito claro (#f9f9f9) */
+}
+
+/* Estiliza cada grupo de formulário */
+.form-group {
+  margin-bottom: 15px; /* Adiciona um espaço de 15 pixels abaixo de cada grupo de formulário */
+}
+
+/* Estiliza o rótulo dentro do grupo de formulário */
+.form-group label {
+  display: block; /* Faz com que o rótulo ocupe toda a largura disponível */
+  margin-bottom: 5px; /* Adiciona um espaço de 5 pixels abaixo do rótulo */
+  font-weight: bold; /* Define o texto do rótulo como negrito */
+}
+
+/* Estiliza os campos de entrada dentro do grupo de formulário */
+.form-group input {
+  width: 100%; /* Faz com que o campo de entrada ocupe toda a largura disponível do grupo */
+  padding: 8px; /* Adiciona 8 pixels de preenchimento interno ao campo de entrada */
+  border: 1px solid #ccc; /* Adiciona uma borda sólida de 1 pixel com cor cinza claro (#ccc) */
+  border-radius: 4px; /* Adiciona bordas arredondadas com raio de 4 pixels */
+}
+
+/* Estiliza o botão de envio do formulário */
+button {
+  padding: 10px 15px; /* Adiciona 10 pixels de preenchimento vertical e 15 pixels de preenchimento horizontal ao botão */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 4px; /* Adiciona bordas arredondadas com raio de 4 pixels */
+  background-color: #007bff; /* Define a cor de fundo como azul (#007bff) */
+  color: #fff; /* Define a cor do texto como branco (#fff) */
+  font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+  cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+}
+
+/* Estiliza o botão ao passar o cursor sobre ele */
+button:hover {
+  background-color: #0056b3; /* Muda a cor de fundo para um azul mais escuro (#0056b3) quando o cursor está sobre o botão */
+}
